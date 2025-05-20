@@ -4,7 +4,7 @@
 
 Provide actionable insights to Schools, teachers and policy makers to plan and design their programs to boost student performance through guidance and mentoring which can result in better academic outcomes.
 
-## Folders & Files
+## 🗃️ Folders & Files
 
 Github Reposiroty: https://github.com/Sarath-dba/Capstone
 This repository contains Capstone project details
@@ -34,7 +34,7 @@ Word document that reports detail about projectalong with results of analysis
 
 The dataset is downloaded from Kaggle in CSV format and included as part of documentation. Careful consideration is given to selecting a dataset that encompasses key factors influencing performance through grades. While visualization and correlation analysis highlight major contributors to predictive outcomes, it is important to recognize that other features can indirectly impact these primary contributors.
 
-## 🧑‍💻 Data Preprocessing/Preparation: 
+## 🧑‍💻 Data Preprocessing and Preparation: 
 
 Training a machine learning model needs data to be cleaned, transformed, and structured for better accuracy. 
 This step involves handling missing values, encoding categorical variables, scaling numerical features, and selecting relevant features. 
