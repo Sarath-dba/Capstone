@@ -98,7 +98,7 @@ False Positive: Students with higher grades are classified into lower grades, wh
 4. XGBoost has better Recall and F1 Score on test set.
 5. Moreover, from confusion matrices, lower grade students are less classified into higher grades with XGBoost when compared with SVM.
 
-## Model Interpretation
+## 📝 Model Interpretation
 
 1. Attendance and Hours studied have greater influence on Student grade prediction.
 2. The color pattern of Attendance, Hours studied, Previous score depicts the clear relationship between the feature value and its impact on grades.
