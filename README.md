@@ -93,7 +93,7 @@ The model with the best accuracy, F1 score, and recall will be selected for thes
 1. In this problem.
 False Positive: Students with higher grades are classified into lower grades, which is okay as they can receive guidance. False Negative: Students with lower grades are classified into higher grades, which is NOT okay as they miss the guidance needed for better academic scores.
 
-2. We need to rank our models based on evaluation metric which minimizes False Negatives and also have balance with False Negatives and Positives.¶
+2. We need to rank our models based on evaluation metric which minimizes False Negatives and also have balance with False Negatives and Positives.
 3. XGBoost seems to be the best model for this classification problem.
 4. XGBoost has better Recall and F1 Score on test set.
 5. Moreover, from confusion matrices, lower grade students are less classified into higher grades with XGBoost when compared with SVM.
