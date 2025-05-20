@@ -90,20 +90,19 @@ e.	Confusion matrix – Matrix that show case actual and misclassified predictio
 
 The model with the best accuracy, F1 score, and recall will be selected for these predictions. It is essential to predict student grades accurately and address the performance of lower-performing students without negatively impacting the grades of high-performing students.
 
-•	In this classification problem:
-False Positive: Higher-grade students are classified into lower grades, which is acceptable as they can receive guidance.
-False Negative: Lower-grade students are classified into higher grades, which is problematic since they might miss needed guidance.
+1. In this problem.
+False Positive: Students with higher grades are classified into lower grades, which is okay as they can receive guidance. False Negative: Students with lower grades are classified into higher grades, which is NOT okay as they miss the guidance needed for better academic scores.
 
-•	We must rank models based on metrics that minimize False Negatives while balancing False Positives and Negatives.
+2. We need to rank our models based on evaluation metric which minimizes False Negatives and also have balance with False Negatives and Positives.¶
+3. XGBoost seems to be the best model for this classification problem.
+4. XGBoost has better Recall and F1 Score on test set.
+5. Moreover, from confusion matrices, lower grade students are less classified into higher grades with XGBoost when compared with SVM.
 
-•	XGBoost appears to be the best model for this issue.
+## Model Interpretation
 
-•	XGBoost excels in Recall and F1 Score, essential for our imbalanced dataset.
-
-•	Attendance, Hours_Studied, Access_to_Resources, Parental_Involvement, Internet Access seems to be top 5 Important features.
-
-•	From personal experience as a student, the important features given by the model seems obvious in improving better academic performance.
-
+1. Attendance and Hours studied have greater influence on Student grade prediction.
+2. The color pattern of Attendance, Hours studied, Previous score depicts the clear relationship between the feature value and its impact on grades.
+3. Grade 1 SHAP plot has scattered color patters on both sides which means, non-linear effects on predictions. Even the confusion matrix of XGBoost has wrong predictions as Grade 0 and Grade 2
 
 ## 💡 Insights
 
