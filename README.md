@@ -18,10 +18,7 @@ This folder contains all the image outputs from the analysis
 README.md: https://github.com/Sarath-dba/Capstone/blob/main/README.md
 This file contains the overview and detailed analysis
 
-Student_Performance_Prediction_Analysis.ipynb: 
-
-https://github.com/Sarath-dba/Capstone/blob/main/Student_Performance_Prediction_Analysis.ipynb
-
+Student_Performance_Prediction_Analysis.ipynb: https://github.com/Sarath-dba/Capstone/blob/main/Student_Performance_Prediction_Analysis.ipynb
 This Jupyter Notebook contains the libraries and code for exploratory analysis, Feature Engineering, Modeling, Model Evaluation metrics and Results.
 
 Capstone Project_Final.docx: https://github.com/Sarath-dba/Capstone/blob/main/Capstone%20Project_Final.docx
