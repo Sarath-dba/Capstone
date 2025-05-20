@@ -7,21 +7,27 @@ Provide actionable insights to Schools, teachers and policy makers to plan and d
 ## 🗃️ Folders & Files
 
 Github Reposiroty: https://github.com/Sarath-dba/Capstone
+
 This repository contains Capstone project details
 
 data: https://github.com/Sarath-dba/Capstone/tree/main/data
+
 This folder contains the dataset on csv format.
 
 images: https://github.com/Sarath-dba/Capstone/tree/main/images
+
 This folder contains all the image outputs from the analysis
 
 README.md: https://github.com/Sarath-dba/Capstone/blob/main/README.md
+
 This file contains the overview and detailed analysis
 
 Student_Performance_Prediction_Analysis.ipynb: https://github.com/Sarath-dba/Capstone/blob/main/Student_Performance_Prediction_Analysis.ipynb
+
 This Jupyter Notebook contains the libraries and code for exploratory analysis, Feature Engineering, Modeling, Model Evaluation metrics and Results.
 
 Capstone Project_Final.docx: https://github.com/Sarath-dba/Capstone/blob/main/Capstone%20Project_Final.docx
+
 Word document that reports detail about projectalong with results of analysis
 
 ## 🎯 Model Outcomes or Predictions: 
