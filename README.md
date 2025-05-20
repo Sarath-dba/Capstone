@@ -52,10 +52,15 @@ Proper preprocessing ensures the dataset is optimized for model training, improv
 The problem is classification problem as we predict the student grade based on available features. Also, we have multiple classes for prediction. We have considered the following models to solve this problem.
 
 a.	Decision Trees
+
 b.	KNN
+
 c.	Random Forests
+
 d.	SVM
+
 e.	XGBoost
+
 f.	Logistic Regression
 
 We then perform GridSearchCV to perform cross validation and hyper parameter tuning to get better evaluation metrics so that the model performs well for unseen data. 
@@ -66,9 +71,13 @@ Based on the above training, testing, validation and tuning of the models, we co
 
 Evaluation metrics for this classification:
 a.	Accuracy – How well the model predicts the student grade.
-b.	Precision - How well the model predicts the higher-grade students
-c.	Recall – How well the model predicts the lower grade students
+
+b.	Precision - How well the model predicts the higher-grade students.
+
+c.	Recall – How well the model predicts the lower grade students.
+
 d.	F1 score – How well the model classifies both higher and lower grade students.
+
 e.	Confusion matrix – Matrix that show case actual and misclassified predictions.
 
 The model with the best accuracy, F1 score, and recall will be selected for these predictions. It is essential to predict student grades accurately and address the performance of lower-performing students without negatively impacting the grades of high-performing students.
@@ -78,10 +87,15 @@ False Positive: Higher-grade students are classified into lower grades, which is
 False Negative: Lower-grade students are classified into higher grades, which is problematic since they might miss needed guidance.
 
 •	We must rank models based on metrics that minimize False Negatives while balancing False Positives and Negatives.
+
 •	XGBoost appears to be the best model for this issue.
+
 •	XGBoost excels in Recall and F1 Score, essential for our imbalanced dataset.
+
 •	Attendance, Hours_Studied, Access_to_Resources, Parental_Involvement, Internet Access seems to be top 5 Important features.
+
 •	From personal experience as a student, the important features given by the model seems obvious in improving better academic performance.
+
 
 ## 💡 Insights
 
