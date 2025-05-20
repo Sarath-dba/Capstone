@@ -1,19 +1,20 @@
-# Student Performance Grade Prediction
-## Problem Statement: 
+# 🎓 Student Performance Grade Prediction
+
+## ❓ Problem Statement: 
 
 Provide actionable insights to Schools, teachers and policy makers to plan and design their programs to boost student performance through guidance and mentoring which can result in better academic outcomes.
 
-## Model Outcomes or Predictions: 
+## 🎯 Model Outcomes or Predictions: 
 
 •	This project uses Machine Learning techniques to analyze student performance based on various features like attendance, study habits, prior grades, and socio-economic factors.
 
 •	The model predicts the future grade of the students and provides opportunities for parents, policy makers, teachers & tutors to proactively involve and contribute to the student’s success.
 
-## Data Acquisition: 
+## 📥 Data Acquisition: 
 
 The dataset is downloaded from Kaggle in CSV format and included as part of documentation. Careful consideration is given to selecting a dataset that encompasses key factors influencing performance through grades. While visualization and correlation analysis highlight major contributors to predictive outcomes, it is important to recognize that other features can indirectly impact these primary contributors.
 
-## Data Preprocessing/Preparation: 
+## 🧑‍💻 Data Preprocessing/Preparation: 
 
 Training a machine learning model needs data to be cleaned, transformed, and structured for better accuracy. 
 This step involves handling missing values, encoding categorical variables, scaling numerical features, and selecting relevant features. 
@@ -27,7 +28,7 @@ Proper preprocessing ensures the dataset is optimized for model training, improv
 
 •	The data is split into train and test sets with 80% training size and 20% test size.
 
-## Modeling 
+## 🧮 Modeling 
 The problem is classification problem as we predict the student grade based on available features. Also, we have multiple classes for prediction. We have considered the following models to solve this problem.
 
 a.	Decision Trees
@@ -39,7 +40,7 @@ f.	Logistic Regression
 
 We then perform GridSearchCV to perform cross validation and hyper parameter tuning to get better evaluation metrics so that the model performs well for unseen data. 
 
-## Model Evaluation
+## 📊 Model Evaluation
 
 Based on the above training, testing, validation and tuning of the models, we consider the below evaluation metrics to pick best model for our problem. 
 
@@ -62,7 +63,7 @@ False Negative: Lower-grade students are classified into higher grades, which is
 •	Attendance, Hours_Studied, Access_to_Resources, Parental_Involvement, Internet Access seems to be top 5 Important features.
 •	From personal experience as a student, the important features given by the model seems obvious in improving better academic performance.
 
-## Conclusion
+## 💡 Insights
 
 #### •	Takeaways
 1.	Attendance at school and study hours are significant factors in achieving good grades.
@@ -87,5 +88,5 @@ False Negative: Lower-grade students are classified into higher grades, which is
 2.	Features reflecting student interests can enhance understanding and guide them in specific areas.
 3.	Plans for college education and career interests can facilitate mentorship and guidance accordingly.
 
-## Project Contributors
-This project was developed by Sarath Pericharla as part of Capstone Project under the supervision of Professor Viviana Márquez.
+# Project Contributors
+This project was developed by Sarath Pericharla as part of Capstone Project under the supervision of Professor Viviana Márquez 👩‍🏫👏🙏
