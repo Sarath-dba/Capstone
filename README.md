@@ -12,7 +12,7 @@ This repository contains Capstone project details
 
 🔗 data: https://github.com/Sarath-dba/Capstone/tree/main/data
 
-This folder contains the dataset on csv format.
+This folder contains the dataset in csv format.
 
 🔗 images: https://github.com/Sarath-dba/Capstone/tree/main/images
 
